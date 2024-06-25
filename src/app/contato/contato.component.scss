@@ -1,0 +1,33 @@
+.contato {
+    display: flex;
+    flex-direction: column;
+}
+
+.contatos {
+  height: auto;
+  width: 25%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+    margin-top: 50%;
+    margin-bottom: 50%;
+  a {
+    text-decoration: none;
+  }
+}
+
+.plataforma {
+  display: flex;
+  align-items: center;
+  img {
+    height: 50px;
+    margin: 20px;
+  }
+
+  p {
+    color: white;
+  }
+}
